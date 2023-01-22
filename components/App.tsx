@@ -29,27 +29,18 @@ function App() {
   return (
     <Container>
       <StyledDiv>
-        <Title>Manaculator</Title>
+        <div>
+          <Title>Manaculator</Title>
+          <Title>this is where the other stuff goes</Title>
+        </div>
       </StyledDiv>
       <StyledDiv>
-        <Title> another text</Title>
+        <div>
+          <Title> How to use</Title>
+          <div>instructions</div>
+          <Title>Reccommendations</Title>
+        </div>
       </StyledDiv>
-      <StyledDiv>
-        <Title> afdsa is title</Title>
-      </StyledDiv>
-      <StyledDiv>
-        <Title> dd is title</Title>
-      </StyledDiv>
-      <StyledDiv>
-        <Title> sdafdsafsda is title</Title>
-      </StyledDiv>
-      <StyledDiv>
-        <Title> dafdsafdsa</Title>
-      </StyledDiv>
-      <StyledDiv>
-        <Title> another</Title>
-      </StyledDiv>
-
       <Manabar />
     </Container>
   )
